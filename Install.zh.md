@@ -38,6 +38,13 @@ yum install glibc-devel
 ## 1.2. cmake安装介绍
 cmake是tars框架服务依赖的编译环境。
 
+--通过yum安装
+例如，在Centos下，执行：
+```
+yum install glibc-devel
+```
+
+--通过源码编译安装
 下载cmake-2.8.8源码包，解压：
 ```
 tar zxvf cmake-2.8.8.tar.gz
